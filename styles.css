@@ -1,0 +1,122 @@
+/* Simple and beginner-friendly Green Diwali website CSS */
+
+/* Basic setup */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff8e1;
+  color: #333;
+}
+
+/* Header section */
+header {
+  background-color: #f5c542;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Navigation bar */
+.nav {
+  background-color: #ffe082;
+  text-align: center;
+  padding: 10px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 8px 15px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  background-color: #fbc02d;
+  color: white;
+  border-radius: 5px;
+}
+
+/* Hero section */
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #fff3cd;
+}
+
+.hero h2 {
+  color: #d17a00;
+}
+
+.hero p {
+  color: #555;
+}
+
+.btn {
+  background-color: #f5a623;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #f57f17;
+}
+
+/* Eco Tips section */
+.cards {
+  background-color: #fff8e1;
+  padding: 20px;
+  text-align: center;
+}
+
+.cards h3 {
+  color: #e65100;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #f5c542;
+  border-radius: 8px;
+  width: 250px;
+  padding: 15px;
+  text-align: left;
+}
+
+.card h4 {
+  color: #d17a00;
+  margin-top: 0;
+}
+
+/* Footer */
+footer {
+  background-color: #f5c542;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .card-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+}
