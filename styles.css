@@ -103,20 +103,3 @@ header h1 {
   color: #d17a00;
   margin-top: 0;
 }
-
-/* Footer */
-footer {
-  background-color: #f5c542;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  margin-top: 20px;
-}
-
-/* Responsive adjustments */
-@media (max-width: 600px) {
-  .card-grid {
-    flex-direction: column;
-    align-items: center;
-  }
-}
